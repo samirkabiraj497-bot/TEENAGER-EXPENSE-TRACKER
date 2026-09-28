@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "id": "37dc4296-af6b-40d7-9c97-eccdc3436e83",
+      "name": "Sayan Sharma",
+      "email": "sayan@test.com",
+      "password_hash": "$2a$10$zkMzkygmu8icaIwMsR9H4.PQpcfwv1EHpdhCqry4ZRQRbfzY2.J36",
+      "created_at": "2026-09-28T07:44:09.989Z",
+      "updated_at": "2026-09-28T07:44:09.989Z"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "12d23b95-9663-4793-b97c-6408c4d9d940",
+      "user_id": "37dc4296-af6b-40d7-9c97-eccdc3436e83",
+      "title": "Pizza Party",
+      "amount": 350,
+      "category": "Food",
+      "description": "Dinner with friends",
+      "expense_date": "2026-09-28",
+      "payment_method": "UPI",
+      "created_at": "2026-09-28T07:44:10.005Z",
+      "updated_at": "2026-09-28T07:44:10.005Z"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "10c8c194-8b8e-4d91-b34f-c37a1973bee1",
+      "user_id": "37dc4296-af6b-40d7-9c97-eccdc3436e83",
+      "category": "Food",
+      "amount": 1000,
+      "month": 9,
+      "year": 2026,
+      "created_at": "2026-09-28T07:44:10.010Z",
+      "updated_at": "2026-09-28T07:44:10.010Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Food",
+      "icon": "Utensils",
+      "created_at": "2026-09-28T07:42:17.535Z"
+    },
+    {
+      "id": "2",
+      "name": "Transport",
+      "icon": "Bus",
+      "created_at": "2026-09-28T07:42:17.536Z"
+    },
+    {
+      "id": "3",
+      "name": "Education",
+      "icon": "BookOpen",
+      "created_at": "2026-09-28T07:42:17.536Z"
+    },
+    {
+      "id": "4",
+      "name": "Entertainment",
+      "icon": "Film",
+      "created_at": "2026-09-28T07:42:17.536Z"
+    },
+    {
+      "id": "5",
+      "name": "Shopping",
+      "icon": "ShoppingBag",
+      "created_at": "2026-09-28T07:42:17.537Z"
+    },
+    {
+      "id": "6",
+      "name": "Gaming",
+      "icon": "Gamepad2",
+      "created_at": "2026-09-28T07:42:17.537Z"
+    },
+    {
+      "id": "7",
+      "name": "Subscriptions",
+      "icon": "Tv",
+      "created_at": "2026-09-28T07:42:17.537Z"
+    },
+    {
+      "id": "8",
+      "name": "Mobile/Data",
+      "icon": "Smartphone",
+      "created_at": "2026-09-28T07:42:17.537Z"
+    },
+    {
+      "id": "9",
+      "name": "Sports",
+      "icon": "Dumbbell",
+      "created_at": "2026-09-28T07:42:17.537Z"
+    },
+    {
+      "id": "10",
+      "name": "Travel",
+      "icon": "Plane",
+      "created_at": "2026-09-28T07:42:17.537Z"
+    },
+    {
+      "id": "11",
+      "name": "Personal Care",
+      "icon": "Sparkles",
+      "created_at": "2026-09-28T07:42:17.537Z"
+    },
+    {
+      "id": "12",
+      "name": "Gifts",
+      "icon": "Gift",
+      "created_at": "2026-09-28T07:42:17.537Z"
+    },
+    {
+      "id": "13",
+      "name": "Other",
+      "icon": "Tag",
+      "created_at": "2026-09-28T07:42:17.537Z"
+    }
+  ]
+}

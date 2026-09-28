@@ -1,0 +1,23 @@
+-- ==========================================================
+-- Optional Demo Seed Data for Development
+-- Note: Replace USER_ID_HERE with a real user UUID after registering an account.
+-- ==========================================================
+
+-- Example Budgets for current month (Month 9, Year 2026)
+-- INSERT INTO budgets (user_id, category, amount, month, year) VALUES
+--   ('USER_ID_HERE', 'Food', 3000.00, 9, 2026),
+--   ('USER_ID_HERE', 'Transport', 1500.00, 9, 2026),
+--   ('USER_ID_HERE', 'Entertainment', 1200.00, 9, 2026),
+--   ('USER_ID_HERE', 'Shopping', 2000.00, 9, 2026),
+--   ('USER_ID_HERE', 'Gaming', 1000.00, 9, 2026);
+
+-- Example Expenses
+-- INSERT INTO expenses (user_id, title, amount, category, description, expense_date, payment_method) VALUES
+--   ('USER_ID_HERE', 'Pizza Party', 450.00, 'Food', 'Weekend hangout with friends', '2026-09-27', 'UPI'),
+--   ('USER_ID_HERE', 'Bus Pass Recharge', 250.00, 'Transport', 'Monthly bus pass travel', '2026-09-25', 'UPI'),
+--   ('USER_ID_HERE', 'Steam Game Sale', 699.00, 'Gaming', 'Indie cooperative game', '2026-09-23', 'Debit Card'),
+--   ('USER_ID_HERE', 'School Notebooks & Pens', 180.00, 'Education', 'Stationery for science class', '2026-09-20', 'Cash'),
+--   ('USER_ID_HERE', 'Movie Tickets', 350.00, 'Entertainment', 'Watched new animated film', '2026-09-18', 'UPI'),
+--   ('USER_ID_HERE', 'Casual Hoodie', 1200.00, 'Shopping', 'Autumn hoodie sale', '2026-09-15', 'Credit Card'),
+--   ('USER_ID_HERE', 'Spotify Student Plan', 59.00, 'Subscriptions', 'Music streaming subscription', '2026-09-10', 'UPI'),
+--   ('USER_ID_HERE', 'Burger & Fries', 160.00, 'Food', 'Snack after school', '2026-09-08', 'Cash');
